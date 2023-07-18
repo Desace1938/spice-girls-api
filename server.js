@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const PORT = 8000
-
+ 
 const spiceGirls = {
     'posh spice':{
         'birthName':'Victoria Caroline Beckham',
@@ -55,6 +55,6 @@ app.get('/api/:name',(request,response)=>{
 })
 
 app.listen(PORT,()=>{
-    console.log(`The server is now running on port ${PORT}! Betta GO Catch It`)
+    console.log(`The server is now running on port ${PORT}!`)
 })
 
